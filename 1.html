@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FD Calculator</title>
+    <link rel="stylesheet" href="2.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Fixed Deposit Calculator</h1>
+        <form id="fd-form">
+            <div class="input-group">
+                <label for="principal">Enter Amount Invested (₹):</label>
+                <input type="number" id="principal" required>
+            </div>
+            <div class="input-group">
+                <label for="rate">Enter Annual Interest Rate (%):</label>
+                <input type="number" id="rate" required>
+            </div>
+            <div class="input-group">
+                <label for="withdraw_amount">Enter Target Withdrawal Amount (₹):</label>
+                <input type="number" id="withdraw_amount" required>
+            </div>
+            <button type="submit">Calculate</button>
+        </form>
+
+        <h2>Investment Progress:</h2>
+        <div id="output"></div>
+    </div>
+
+    <script src="3.js"></script>
+</body>
+
+</html>
