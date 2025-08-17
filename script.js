@@ -24,3 +24,4 @@ document.getElementById('fd-form').addEventListener('submit', function(event) {
 
     document.getElementById('output').innerHTML = output;
 });
+
